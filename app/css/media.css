@@ -1,141 +1,144 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-.s_tizers .container .row .tiz_img i{
-		font-size: 50px;
-		margin-right: 10px;
-	}
-	.s_tizers .container .row .tiz_descr .sm_font{
-		font-size: 10px;
-	}
-	.s_tizers .container .row .tiz_descr .lg_font{
-		font-size: 19px;
-	}
-	
+@media only screen and (max-width: 1200px) {
+    .s_tizers .container .row .tiz_img i {
+        font-size: 50px;
+        margin-right: 10px;
+    }
 
-}
+    .s_tizers .container .row .tiz_descr .sm_font {
+        font-size: 10px;
+    }
 
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-
-	.s_tizers .container .row .tiz_img i{
-		font-size: 70px;
-		margin-right: 20px;
-	}
-	.s_tizers .container .row .tiz_descr .sm_font{
-		font-size: 14px;
-	}
-	.s_tizers .container .row .tiz_descr .lg_font{
-		font-size: 20px;
-	}
-	.s_tizers .container .row .tiz_img .ten{
-		margin-right: 35px;
-	}
-
-
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	.top-phone, .logo, .top_header h1, .top_header h2{
-		text-align: center;
-	}
-	.logo{
-		margin-bottom: 15px;
-	}
-	.top-phone .tab-item{
-		font-size: 30px;
-	}
-	.s_contacts h2{
-		margin-bottom: 20px;
-	}
-	.tiz_descr{
-		display: inline-block;
-	}
-
-}
-
-	
-
-
-@media only screen and (max-width : 600px) {
-	.profy_item{
-		width: 100%;
-		text-align: center;
-		margin-bottom: 25px;
-		}
-	.profy_item:last-child {
-		margin-bottom: 30px;
-	}
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-	.top_header{
-		margin-top: 30px;
-	}
-	.top_header h1{
-		font-size: 50px;
-		line-height: 50px;
-	}
-	.top_header h2{
-		font-size: 28px;
-	}
-	.tabs_header .tabs .tab{
-		font-size: 12px;
-		padding: 15px;
-	}
-	.tab_content .button_wrap{
-		text-align: center;
-	}
-	.section h2{
-		font-style: 38px;
-		line-height: 40px;
-	}
-	.s_contacts .tabs .tab{
-		padding: 0 20px;
-	}
-	.profy_left, .profy_right{
-		text-align: center;
-	}
-}
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-	.profy_left, .profy_right{
-			text-align: center;
-		}
-
-
-}
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+    .s_tizers .container .row .tiz_descr .lg_font {
+        font-size: 19px;
+    }
 
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+@media only screen and (max-width: 992px) {
+
+    .s_tizers .container .row .tiz_img i {
+        font-size: 70px;
+        margin-right: 20px;
+    }
+
+    .s_tizers .container .row .tiz_descr .sm_font {
+        font-size: 14px;
+    }
+
+    .s_tizers .container .row .tiz_descr .lg_font {
+        font-size: 20px;
+    }
+
+    .s_tizers .container .row .tiz_img .ten {
+        margin-right: 35px;
+    }
 
 }
 
- /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .top-phone, .logo, .top_header h1, .top_header h2 {
+        text-align: center;
+    }
 
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    .top-phone .tab-item {
+        font-size: 30px;
+    }
+
+    .s_contacts h2 {
+        margin-bottom: 20px;
+    }
+
+    .tiz_descr {
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (max-width: 630px) {
+    .s_tizers .col-xs-6 {
+        text-align: center;
+    }
+
+    .s_tizers .tiz_img {
+        margin-bottom: 0;
+    }
+
+    .s_tizers .tiz_descr {
+        display: block;
+    }
+
+    .profy_item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .profy_item:last-child {
+        margin-bottom: 30px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .top_header {
+        margin-top: 30px;
+    }
+
+    .top_header h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .top_header h2 {
+        font-size: 28px;
+    }
+
+    .tabs_header .tabs .tab {
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    .tab_content .button_wrap {
+        text-align: center;
+    }
+
+    .section h2 {
+        font-style: 38px;
+        line-height: 40px;
+    }
+
+    .profy_left, .profy_right {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    body section h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .s_tizers .container .row .tiz_descr .lg_font {
+        font-size: 16px;
+    }
+
+    .s_tizers .tiz_descr {
+        margin-bottom: 20px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+    .profy_left, .profy_right {
+        text-align: center;
+    }
 }

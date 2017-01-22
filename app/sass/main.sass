@@ -7,471 +7,448 @@ $blue-color: #003469
 $green-color: #67bc5c
 
 body
-	position: relative
-	min-width: 320px
-	font-family: "RobotoRegular", sans-serif
-	font-size: 16px
-	font-weight: normal
-	-webkit-font-smoothing: antialiased
-	line-height: 1.6
-	color: $text-color
+  position: relative
+  min-width: 320px
+  font-family: "RobotoRegular", sans-serif
+  font-size: 16px
+  font-weight: normal
+  -webkit-font-smoothing: antialiased
+  line-height: 1.6
+  color: $text-color
 
-	h1
-		margin: 0
-		font-family: "CleanvertisingLight", sans-serif
-		font-size: 60px
-		font-weight: bold
-		line-height: 56px
-		color: #fff
+  h1
+    margin: 0
+    font-family: "CleanvertisingLight", sans-serif
+    font-size: 60px
+    font-weight: bold
+    line-height: 56px
+    color: #fff
 
-	section,
-	footer
-		padding: 58px 0 68px
-		&.s_dark
-			h2,h3,p
-				color: #fff
+  section,
+  footer
+    padding: 58px 0 68px
+    &.s_dark
+      h2, h3, p
+        color: #fff
 
-		h2
-			margin-top: 0
-			margin-bottom: 50px
-			font-family: "CleanvertisingLight", sans-serif
-			font-size: 50px
-			font-weight: normal
-			line-height: 56px
-			text-align: center
-			color: $blue-color
-
+    h2
+      margin-top: 0
+      margin-bottom: 50px
+      font-family: "CleanvertisingLight", sans-serif
+      font-size: 50px
+      font-weight: normal
+      line-height: 56px
+      text-align: center
+      color: $blue-color
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
-	color: red
+  color: red
+
 body input:required:valid,
 body textarea:required:valid
-	color: green
+  color: green
 
 .hidden
-	display: none
+  display: none
+
 header
-	min-height: 640px
-	padding-top: 32px
-	padding-bottom: 40px
-	background-image: url(../img/top_bg.jpg)
-	background-position: top center
-	background-size: cover
-	color: #fff
+  min-height: 640px
+  padding-top: 32px
+  padding-bottom: 40px
+  background-image: url(../img/top_bg.jpg)
+  background-position: top center
+  background-size: cover
+  color: #fff
 
 .logo
-	font-family: "RobotoBold", sans-serif
-	font-size: 40px
-	font-weight: bold
+  font-family: "RobotoBold", sans-serif
+  font-size: 40px
+  font-weight: bold
+
 .top-phone,
 .bottom-phone
-	text-align: right
+  text-align: right
+
 .tab-item
-	display: none
+  display: none
+
 .tab-item:first-child
-	display: block
+  display: block
+
 .top-phone,
 .bottom-phone
-	text-align: right
-	.wrapper .tab,
-	.tabs_header .wrapper .tab
-		cursor: pointer
-		text-transform: uppercase
+  text-align: right
+  .wrapper .tab,
+  .tabs_header .wrapper .tab
+    cursor: pointer
+    text-transform: uppercase
+
 .bottom-phone
-	margin-top: 60px
-	text-align: center
-	color: $red-color
+  margin-top: 60px
+  text-align: center
+  color: $red-color
+
 .top-phone,
 .bottom-phone
-	.tab
-		cursor: pointer
-	.wrapper .active,
-	.tabs_header .wrapper .active
-		text-decoration: underline
+  .tab
+    cursor: pointer
+  .wrapper .active,
+  .tabs_header .wrapper .active
+    text-decoration: underline
+
 .tabs_header
-	margin-top: 35px
+  margin-top: 35px
+
 .top-phone,
 .bottom-phone
-	.tab-item
-		font-family: "RobotoBold", sans-serif
-		font-size: 34px
+  .tab-item
+    font-family: "RobotoBold", sans-serif
+    font-size: 34px
+
 .top_header
-	margin-top: 70px
-	h2
-		margin: 10px 0 0
-		font-family: "CleanvertisingLight", sans-serif
-		font-size: 36px
+  margin-top: 70px
+  h2
+    margin: 10px 0 0
+    font-family: "CleanvertisingLight", sans-serif
+    font-size: 36px
+
 .tabs_header
-	margin-top: 50px
-	ul, li
-		margin: 0
-		padding: 0
-		list-style-type: none
-		li
-			position: relative
-			margin-bottom: 12px
-			padding-left: 40px
-			font-family: "RobotoBold", sans-serif
-		i
-			position: absolute
-			left: 0
-			font-size: 25px
-			line-height: 26px
-			text-transform: none
-			color: #6F6A67
-	.tabs
-		.tab
-			padding: 15px 18px
-			float: left
-			font-family: "RobotoBold", sans-serif
-			cursor: pointer
-			transition: transition(all .25s ease)
-			text-transform: uppercase
-			background-color: rgba(255,255,255,.25)
+  margin-top: 50px
+  ul, li
+    margin: 0
+    padding: 0
+    list-style-type: none
+    li
+      position: relative
+      margin-bottom: 12px
+      padding-left: 40px
+      font-family: "RobotoBold", sans-serif
+    i
+      position: absolute
+      left: 0
+      font-size: 25px
+      line-height: 26px
+      text-transform: none
+      color: #6F6A67
+  .tabs
+    .tab
+      padding: 15px 18px
+      float: left
+      font-family: "RobotoBold", sans-serif
+      cursor: pointer
+      transition: transition(all .25s ease)
+      text-transform: uppercase
+      background-color: rgba(255, 255, 255, .25)
 
-			&.active
-				color: #000
-				background-color: rgba(255,255,255,.6)
+      &.active
+        color: #000
+        background-color: rgba(255, 255, 255, .6)
 
-	.tab_content
-		padding: 12px 18px 16px
-		font-family: "RobotoBold", sans-serif
-		font-size: 18px
-		text-transform: uppercase
-		color: #000
-		background-color: rgba(255,255,255,.6)
+  .tab_content
+    padding: 12px 18px 16px
+    font-family: "RobotoBold", sans-serif
+    font-size: 18px
+    text-transform: uppercase
+    color: #000
+    background-color: rgba(255, 255, 255, .6)
 
-	.button
-		display: inline-block
-		padding: 0 32px
-		font-family: "RobotoBold", sans-serif
-		font-size: 16px
-		cursor: pointer
-		line-height: 46px
-		text-decoration: none
-		text-transform: uppercase
-		border-radius: 3px
-		color: #fff
-		background: none
-		background-color: #000
+  .button
+    display: inline-block
+    padding: 0 32px
+    font-family: "RobotoBold", sans-serif
+    font-size: 16px
+    cursor: pointer
+    line-height: 46px
+    text-decoration: none
+    text-transform: uppercase
+    border-radius: 3px
+    color: #fff
+    background: none
+    background-color: #000
 
-		&.btn-red
-			background-color: $red-color
-		&.btn-green
-			background-color: $green-color
-		&.btn-white
-			color: #000
-			background-color: #fff
-	.button_wrap
-		text-align: right
+    &.btn-red
+      background-color: $red-color
+    &.btn-green
+      background-color: $green-color
+    &.btn-white
+      color: #000
+      background-color: #fff
+  .button_wrap
+    text-align: right
 
 .s_tizers
-	+linear-gradient(#c7d9ee, #e7eff7)
-	padding: 35px 0 0
-	font-family: "CleanvertisingLight", sans-serif
-	color: $blue-color
+  +linear-gradient(#c7d9ee, #e7eff7)
+  padding: 35px 0 0
+  font-family: "CleanvertisingLight", sans-serif
+  color: $blue-color
 
-	.sm_font
-		display: block
-		font-size: 14px
-	.lg_font
-		display: block
-		font-size: 23px
-	.tiz_img,
-	.tiz_descr
-		display: inline-block
-		margin-bottom: 35px
-		vertical-align: bottom
-	.tiz_descr
-		text-transform: uppercase
-	.tiz_img
-		i
-			margin-right: 8px
-			font-size: 70px
-			line-height: 48px
-.s_tizers	.row
-	> div:nth-child(1)
-		i
-			margin-right: 18px
-			font-family: "RobotoRegular", sans-serif
-			letter-spacing: -12px
+  .sm_font
+    display: block
+    font-size: 14px
+  .lg_font
+    display: block
+    font-size: 23px
+  .tiz_img,
+  .tiz_descr
+    display: inline-block
+    margin-bottom: 35px
+    vertical-align: bottom
+  .tiz_descr
+    text-transform: uppercase
+  .tiz_img
+    i
+      margin-right: 8px
+      font-size: 70px
+      line-height: 48px
 
-		.sm_font
-			font-size: 20px
-			line-height: 24px
-		.lg_font
-			font-size: 25px
-			line-height: 28px
-	> div:nth-child(2)
-		.sm_font
-			font-size: 16px
-			line-height: 24px
-		i
-			position: relative
-			bottom: -3px
-		.lg_font
-			font-size: 25px
-			line-height: 28px
-	> div:nth-child(3)
-		.sm_font
-			font-size: 14px
-			line-height: 20px
-		.lg_font
-			font-size: 23px
-			line-height: 28px
-	> div:nth-child(4)
-		.sm_font
-			font-size: 13px
-			line-height: 12px
-		.lg_font
-			line-height: 34px
-		i
-			line-height: 54px
+.s_tizers .row
+  > div:nth-child(1)
+    i
+      margin-right: 18px
+      font-family: "RobotoRegular", sans-serif
+      letter-spacing: -12px
+
+    .sm_font
+      font-size: 20px
+      line-height: 24px
+    .lg_font
+      font-size: 25px
+      line-height: 28px
+  > div:nth-child(2)
+    .sm_font
+      font-size: 16px
+      line-height: 24px
+    i
+      position: relative
+      bottom: -3px
+    .lg_font
+      font-size: 25px
+      line-height: 28px
+  > div:nth-child(3)
+    .sm_font
+      font-size: 14px
+      line-height: 20px
+    .lg_font
+      font-size: 23px
+      line-height: 28px
+  > div:nth-child(4)
+    .sm_font
+      font-size: 13px
+      line-height: 12px
+    .lg_font
+      line-height: 34px
+    i
+      line-height: 54px
+
 .profy_left
-	color: $red-color
-	i
-		font-size: 100px
-		line-height: 120px
+  color: $red-color
+  i
+    font-size: 100px
+    line-height: 120px
+
 .profy_right
-	h3
-		display: inline-block
-		margin: 0
-		font-size: 28px
-		color: $red-color
-	p
-		margin-top: 5px
+  h3
+    display: inline-block
+    margin: 0
+    font-size: 28px
+    color: $red-color
+  p
+    margin-top: 5px
+
 .s_profi form
-	padding: 25px 30px
-	border: $green-color solid
-	background-color: #f7f7f7
-	h2
-		margin-top: 0
-		margin-bottom: 25px
-		font-family: "RobotoBold", sans-serif
-		font-size: 20px
-		line-height: 22px
-		text-transform: uppercase
-		color: $text-color
+  padding: 25px 30px
+  border: $green-color solid
+  background-color: #f7f7f7
+  h2
+    margin-top: 0
+    margin-bottom: 25px
+    font-family: "RobotoBold", sans-serif
+    font-size: 20px
+    line-height: 22px
+    text-transform: uppercase
+    color: $text-color
 
-	label
-		display: block
-		margin-bottom: 5px
-		font-size: 14px
-		color: #666
+  label
+    display: block
+    margin-bottom: 5px
+    font-size: 14px
+    color: #666
 
-	input,
-	select
-		display: block
-		width: 100%
-		height: 40px
-		font-style: 20px
-		line-height: 40px
-		text-indent: 10px
-		border: 1px solid #dfdfdf
-		box-shadow: 0 0 2px #f2f2f2 inset
+  input,
+  select
+    display: block
+    width: 100%
+    height: 40px
+    font-style: 20px
+    line-height: 40px
+    text-indent: 10px
+    border: 1px solid #dfdfdf
+    box-shadow: 0 0 2px #f2f2f2 inset
 
-		&:focus
-			border-color: $green-color
-			box-shadow: $green-color 0 0 0 2px
-	.button_wrap
-		margin: 30px 0 10px
-		text-align: center
-		.button
-			display: inline-block
-			padding: 0 32px
-			font-family: "RobotoBold", sans-serif
-			font-size: 16px
-			cursor: pointer
-			line-height: 46px
-			text-decoration: none
-			text-transform: uppercase
-			border-radius: 3px
-			color: #fff
-			background: none
-			background-color: #000
-		.btn-green
-			background-color: $green-color
+    &:focus
+      border-color: $green-color
+      box-shadow: $green-color 0 0 0 2px
+  .button_wrap
+    margin: 30px 0 10px
+    text-align: center
+    .button
+      display: inline-block
+      padding: 0 32px
+      font-family: "RobotoBold", sans-serif
+      font-size: 16px
+      cursor: pointer
+      line-height: 46px
+      text-decoration: none
+      text-transform: uppercase
+      border-radius: 3px
+      color: #fff
+      background: none
+      background-color: #000
+    .btn-green
+      background-color: $green-color
 
 .s_rewview
-	min-height: 500px
-	background-image: url(../img/middle_bg.jpg)
-	background-attachment: fixed
-	background-position: top center
-	background-size: cover
-	h4
-		margin-top: 20px
-		margin-bottom: 20px
-		font-family: "Times New Roman", serif
-		font-size: 22px
-		font-weight: normal
-		font-style: italic
-	p
-		display: inline-block
-		float: none
-		margin: 30px auto 0
-		font-size: 15px
-	.rewiev_item
-		text-align: center
-		color: #fff
-		.image_wrap
-			text-align: center
-			img
-				display: inline-block
-				width: 165px
-				height: 165px
-				border: 10px solid #67666b
-				border-radius: 50%
+  min-height: 500px
+  background-image: url(../img/middle_bg.jpg)
+  background-attachment: fixed
+  background-position: top center
+  background-size: cover
+  h4
+    margin-top: 20px
+    margin-bottom: 20px
+    font-family: "Times New Roman", serif
+    font-size: 22px
+    font-weight: normal
+    font-style: italic
+  p
+    display: inline-block
+    float: none
+    margin: 30px auto 0
+    font-size: 15px
+  .rewiev_item
+    text-align: center
+    color: #fff
+    .image_wrap
+      text-align: center
+      img
+        display: inline-block
+        width: 165px
+        height: 165px
+        border: 10px solid #67666b
+        border-radius: 50%
 
 .hr
-	width: 80px
-	height: 10px
-	margin: 0 auto
-	color: #cea380
+  width: 80px
+  height: 10px
+  margin: 0 auto
+  color: #cea380
+
 .owl-nav
-	div
-		position: absolute
-		top: 20px
-		width: 34px
-		height: 140px
-		background-image: url(../img/s_arrow.png)
-		opacity: .6
-		&.owl-next
-			right: 0
-			background-position: top right
-			opacity: .8
+  div
+    position: absolute
+    top: 20px
+    width: 34px
+    height: 140px
+    background-image: url(../img/s_arrow.png)
+    opacity: .6
+    &.owl-next
+      right: 0
+      background-position: top right
+      opacity: .8
+
 .s_back
-	padding: 40px 0
-	text-align: center
-	background-image: url(../img/red_bg.jpg)
-	background-position: center top
-	.button
-		margin: auto
-		display: inline-block
-		padding: 0 32px
-		font-family: "RobotoBold", sans-serif
-		font-size: 16px
-		cursor: pointer
-		line-height: 46px
-		text-decoration: none
-		text-transform: uppercase
-		border-radius: 3px
-		color: #fff
-		background: none
-		background-color: #000
-	.btn_white
-		color: #000
-		background-color: #fff
+  padding: 40px 0
+  text-align: center
+  background-image: url(../img/red_bg.jpg)
+  background-position: center top
+  .button
+    margin: auto
+    display: inline-block
+    padding: 0 32px
+    font-family: "RobotoBold", sans-serif
+    font-size: 16px
+    cursor: pointer
+    line-height: 46px
+    text-decoration: none
+    text-transform: uppercase
+    border-radius: 3px
+    color: #fff
+    background: none
+    background-color: #000
+  .btn_white
+    color: #000
+    background-color: #fff
 
-	h3
-		margin-top: 0
-		padding: 10px 0
-		font-size: 26px
-		font-weight: normal
-		text-align: center
-		text-transform: uppercase
-		background-color: rgba(255,255,255,.13)
+  h3
+    margin-top: 0
+    padding: 10px 0
+    font-size: 26px
+    font-weight: normal
+    text-align: center
+    text-transform: uppercase
+    background-color: rgba(255, 255, 255, .13)
 
-
-.s_contacts
-	padding-bottom: 0
-
-	.wrapper
-		margin-top: 15px
-		font-size: 18px
-	.contacts_top
-		text-align: center
-		h2
-			display: inline-block
-			height: 45px
-			margin-bottom: 0
-			color: #000
-
-		.tabs
-			display: inline-block
-			height: 45px
-			margin-left: 20px
-			vertical-align: middle
-
-			.tab
-				padding: 20px 60px
-				font-family: "RobotoBold", sans-serif
-				font-size: 16px
-				text-transform: uppercase
-				line-height: 16px
-				color: $red-color
-				border: $red-color 5px solid
-
-
-				&:last-child
-					border-left: none
-				&.active
-					color: #fff
-					background-color: $red-color
-.map
-	margin-top: 20px
-	min-height: 480px
-	background-color: #e1d6b0
 footer
-	h2
-		margin-bottom: 30px
-		color: #000
-	p
-		margin-top: 0
-		font-size: 18px
-		text-align: center
+  h2
+    margin-bottom: 30px
+    color: #000
+  p
+    margin-top: 0
+    font-size: 18px
+    text-align: center
 
 #hidden_form
-	max-width: 350px
-	margin: auto
-	padding: 25px 30px
-	border: $green-color solid
-	background-color: #f7f7f7
-	h2
-		margin-top: 0
-		margin-bottom: 25px
-		font-family: "RobotoBold", sans-serif
-		font-size: 20px
-		text-align: center
-		line-height: 22px
-		text-transform: uppercase
-		color: $text-color
+  max-width: 350px
+  margin: auto
+  padding: 25px 30px
+  border: $green-color solid
+  background-color: #f7f7f7
+  h2
+    margin-top: 0
+    margin-bottom: 25px
+    font-family: "RobotoBold", sans-serif
+    font-size: 20px
+    text-align: center
+    line-height: 22px
+    text-transform: uppercase
+    color: $text-color
 
-	label
-		display: block
-		margin-bottom: 5px
-		font-size: 14px
-		color: #666
+  label
+    display: block
+    margin-bottom: 5px
+    font-size: 14px
+    color: #666
 
-	input,
-	select
-		display: block
-		width: 100%
-		height: 40px
-		font-style: 20px
-		line-height: 40px
-		text-indent: 10px
-		border: 1px solid #dfdfdf
-		box-shadow: 0 0 2px #f2f2f2 inset
+  input,
+  select
+    display: block
+    width: 100%
+    height: 40px
+    font-style: 20px
+    line-height: 40px
+    text-indent: 10px
+    border: 1px solid #dfdfdf
+    box-shadow: 0 0 2px #f2f2f2 inset
 
-		&:focus
-			border-color: $green-color
-			box-shadow: $green-color 0 0 0 2px
-	.button_wrap
-		margin: 30px 0 10px
-		text-align: center
-		.button
-			display: inline-block
-			padding: 0 32px
-			font-family: "RobotoBold", sans-serif
-			font-size: 16px
-			cursor: pointer
-			line-height: 46px
-			text-decoration: none
-			text-transform: uppercase
-			border-radius: 3px
-			color: #fff
-			background: none
-			background-color: #000
-		.btn-green
-				background-color: $green-color
+    &:focus
+      border-color: $green-color
+      box-shadow: $green-color 0 0 0 2px
+  .button_wrap
+    margin: 30px 0 10px
+    text-align: center
+    .button
+      display: inline-block
+      padding: 0 32px
+      font-family: "RobotoBold", sans-serif
+      font-size: 16px
+      cursor: pointer
+      line-height: 46px
+      text-decoration: none
+      text-transform: uppercase
+      border-radius: 3px
+      color: #fff
+      background: none
+      background-color: #000
+    .btn-green
+      background-color: $green-color

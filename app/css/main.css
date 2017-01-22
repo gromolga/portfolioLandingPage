@@ -379,42 +379,6 @@ header {
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0.13); }
 
-.s_contacts {
-  padding-bottom: 0; }
-  .s_contacts .wrapper {
-    margin-top: 15px;
-    font-size: 18px; }
-  .s_contacts .contacts_top {
-    text-align: center; }
-    .s_contacts .contacts_top h2 {
-      display: inline-block;
-      height: 45px;
-      margin-bottom: 0;
-      color: #000; }
-    .s_contacts .contacts_top .tabs {
-      display: inline-block;
-      height: 45px;
-      margin-left: 20px;
-      vertical-align: middle; }
-      .s_contacts .contacts_top .tabs .tab {
-        padding: 20px 60px;
-        font-family: "RobotoBold", sans-serif;
-        font-size: 16px;
-        text-transform: uppercase;
-        line-height: 16px;
-        color: #9b1818;
-        border: #9b1818 5px solid; }
-        .s_contacts .contacts_top .tabs .tab:last-child {
-          border-left: none; }
-        .s_contacts .contacts_top .tabs .tab.active {
-          color: #fff;
-          background-color: #9b1818; }
-
-.map {
-  margin-top: 20px;
-  min-height: 480px;
-  background-color: #e1d6b0; }
-
 footer h2 {
   margin-bottom: 30px;
   color: #000; }
